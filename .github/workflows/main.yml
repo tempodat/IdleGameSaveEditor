@@ -14,7 +14,7 @@ jobs:
         github_access_token: ${{ secrets.GITHUB_TOKEN }}
         base_href: /idle-game-save-editor/ 
         deploy_branch: gh-pages 
-        angular_dist_build_folder: dist/idle-game-save-editor 
+        angular_dist_build_folder: dist/idle-game-save-editor/browser
 
 permissions:
   contents: write 
