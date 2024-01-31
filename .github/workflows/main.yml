@@ -12,7 +12,7 @@ jobs:
       uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.4.0 # god thank you AhsanAyaz
       with:
         github_access_token: ${{ secrets.GITHUB_TOKEN }}
-        base_href: /idle-game-save-editor/ 
+        base_href: /IdleGameSaveEditor/ 
         deploy_branch: gh-pages 
         angular_dist_build_folder: dist/idle-game-save-editor/browser
 
